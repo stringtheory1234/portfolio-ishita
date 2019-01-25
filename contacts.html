@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact me</title>
+	<style type="text/css">
+		body{
+			background: #466368;
+  			background: linear-gradient(to left, #EDF4EB, #497239);
+  			height: 100%;
+  			color: #605502;
+  			text-align: center;
+  			font-size: 3rem;
+		}
+		img{
+			display: inline-block;
+			height: 10vh;
+			width: 10vh;
+			float: left;
+			margin-right: 5%;
+
+
+		}
+		.images{
+			width: 60%;
+			margin: 0 auto;
+			margin-top: 10%;
+		}
+		.images div{
+			display: block;
+			width: 100%;
+			float: left;
+			margin: 10%;
+			
+		}
+		div a{
+			text-decoration: none;
+			color: black;
+		}
+		/*div a{
+			text-decoration: none;
+			font-size: 2rem;
+			color: #383203;
+			width: 80%;
+			margin-bottom: 10%;
+		}*/
+		div a:hover, img:hover{
+			opacity: 0.4;
+		}
+		hr{
+			color: black;
+
+		}
+
+		@media screen and (max-width: 778px) {
+
+			#m1, #m2, #m3{
+				display: none;
+				margin: 0 auto;
+			}
+
+		}
+	</style>
+</head>
+<body>
+	<div>
+		Here's how you can contact me:
+	</div>
+	<hr>
+	<div class="images">
+		<div class="abc">
+			<a href="facebook.com"><img src="facebook.png" id="m1"></a>
+			<a href="www.facebook.com" style="float: left;">Facebook</a>
+		</div>
+		<div class="abc">
+			<a href="google.com"><img src="twitter.jpg" id="m2"></a>
+			<a href="www.twitter.com" style="float: left;">Twitter</a>
+		</div>
+		<div class="abc">
+			<img src="instagram.png" id="m3">
+			<a href="www.instagram.com" style="float: left;">Instagram</a>
+		</div>
+
+	</div>
+
+
+
+</body>
+</html>

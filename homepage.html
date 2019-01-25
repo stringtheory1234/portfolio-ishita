@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Page</title>
+	<style type="text/css">
+		html, body{
+			height: 100%;
+		}
+		body{
+			background: black;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		div{
+			width: 100%;
+			margin: 0 auto;
+			text-decoration: none;
+			color: white;
+		}
+		/*div a{
+			width: 50%;
+			text-align: center;
+			font-size: 2rem;
+			color: white;
+			text-decoration: none;
+
+		}*/
+		div a:hover{
+			color: #ccc;
+
+		}
+		.name{
+			font-size: 2rem;
+		}
+		.profile{
+			font-size: 1.5rem;
+			margin-top: 10px;
+		}
+
+		.abc a{
+				
+				display: flex;
+				text-align: center;
+			    align-content: center;
+			    justify-content: space-around;
+			    color: white;
+			    margin: 0 auto;
+			    font-size: 2rem;
+			    text-decoration: none;
+				height: 20%;
+		}
+
+		@media screen and (max-width: 778px) {
+
+			div{
+				width: 100%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				text-decoration: none;
+				color: white;
+			}
+
+			.profile{
+				width: 100%;
+				margin-top: 10%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				text-decoration: none;
+				color: white;
+			}
+			div a{
+					width: 100%;
+					text-align: center;
+					font-size: 2rem;
+					color: white;
+					text-decoration: none;
+
+				}
+			.abc{
+				width: 100%;
+				height: 100%;
+			    display: flex;
+			    align-items: center;
+				
+			}
+
+		}
+	</style>
+</head>
+<body>
+		<!-- <div class="name">
+			Ishita Kaul
+		</div> -->
+		<!-- <div class="profile">
+			<br>
+			Know more about me and my work
+		</div> -->
+		<div style="float: left;" class="abc">
+			<a href="index.html" target="_blank" id="w1">About</a>
+		</div>
+		<div style="float: right;" class="abc">
+			<a href="contacts.html" target="_blank" id="w2">Contacts</a>
+		</div>
+
+</body>
+</html>
