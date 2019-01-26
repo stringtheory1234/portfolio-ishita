@@ -66,11 +66,14 @@ body img:hover{
 	display: block;
 	width: 40%;
 	margin: 0 auto;
+	position: fixed;
 }
   
   .links img {
 		height: 20vh;
 		margin-top: 7%;
+		position: relative;
+		width: 80%;
 
 		/*width: 20vh;
 		padding-left: 10%;
