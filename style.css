@@ -26,7 +26,7 @@
 #head p{
 	color:white;
 	text-align: center;
-	font-size: 3rem;
+	font-size: 4rem;
 }
 /*#head img{
 	display: flex;
@@ -39,9 +39,9 @@
 .links img {
 	height: 20vh;
 	margin-top: 10%;
-	float: left;
-	/*flex-direction: row;
-	align-content: space-around;*/
+	width: 80%;
+	flex-direction: row;
+	align-content: space-around;
 	margin-left: 2%;
 	
 }
@@ -63,17 +63,20 @@ body img:hover{
 @media screen and (max-width: 778px) {
 
 .links{
-	display: block;
 	width: 40%;
 	margin: 0 auto;
-	position: fixed;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid red;
 }
   
   .links img {
 		height: 20vh;
-		margin-top: 7%;
-		position: relative;
+		margin: 7%;
 		width: 80%;
+     	border: 2px solid red;
+		
+
 
 		/*width: 20vh;
 		padding-left: 10%;
@@ -83,7 +86,7 @@ body img:hover{
 	}
 	.content{
 		width: 100%;
-		font-size: 1.3rem;
+		font-size: 2.5rem;
 		align-self: center;
 		margin: auto;
 	    font-family: 'Oxygen', sans-serif;
